@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Support ticket page
+{% endblock %}
+
+
+{%block body %}
+
+<div>    
+	<form action="{{url_for('startChat')}}" method="post">
+
+	    <h2 class="caption">Subscriber to Staff chat</h2>
+	    <div class="form">
+
+	        <div id="second">
+	            <a href="#" class="close">End chat</a>
+		        <h3 class="caption1">How may I help you today?</h3>
+		        
+	        </div>
+	        <div class="name">
+		        <label for="inputName">Name:</label>
+		        <input type="text" class="form-control" id="inputName" name='inputName' placeholder="ID/Nickname" required>
+	        </div>
+	        <div class="title">
+		        <label for="inputTitle">Title:</label>
+		        <input type="text" class="form-control1" id="inputTitle" name='inputTitle' placeholder="Title" required>
+		        <div class='msg'>
+		        <textarea class='msgbox' placeholder="describe your issue" name='messageInput'></textarea>
+	        </div>
+	    </div>
+
+		<button type="submit" class="submit">start live chat</button>
+
+
+	</form>
+</div>
+
+
+
+{%endblock %}
+
+

@@ -1,0 +1,122 @@
+body{
+    background-color: #fff8e8;
+}
+
+.form{
+    width:350px;
+    height:390px;
+    margin:auto;
+    background-color:#e6faff;
+    border-style:solid;
+    border-width:1px;
+    border-color:darkorange;
+    margin-top:45px;
+    position: relative
+
+
+}
+
+
+#second{
+    border-style:solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: darkorange;
+    border-bottom-color:darkorange;
+    border-bottom-width: 1px;
+    border-top-width:1px;
+    border-left-width: 1px;
+    border-right-width: 0.1px;
+    background-color: #e6ffe6;
+}
+
+.caption1{
+    text-align: center;
+    padding: 15px;
+}
+.caption{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:35px;
+    font-size:33px;
+}
+.sts{
+    text-align: center;
+    margin-top:50px;
+    font-size:30px;
+}
+.name{
+    text-align: center;
+    margin-top:25px;
+    font-size:16px;
+
+}
+.title{
+    text-align:center;
+    margin-top:40px;
+    font-size:16px;
+
+}
+.form-control{
+    width:140px;
+    height:30px;
+}
+.form-control1{
+    width:150px;
+    height:30px;
+}
+input[type=text]:focus {
+  background-color: #fff3e6;
+}
+
+.msgbox {
+    margin-top:30px;
+    width:300px;
+    height:80px;
+
+
+    background-color: lightgoldenrodyellow;
+}
+
+.submit {
+    
+    border: none;
+    text-align: center;
+    text-decoration: none;    
+    border-radius: 8px;
+    font-size: 18px;
+    position: absolute;
+    bottom: -30px;
+    right: 1px;
+    width: 155px;
+
+
+
+}
+
+.submit:hover {background-color: #ffe6e6}
+
+.submit:active {
+    background-color: #ffe6e6;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;  
+  height: 62px;
+  opacity: 0.3;
+  width: 120px;
+  text-decoration: none;  
+  text-align: right;
+
+
+
+
+}
+.close:hover {
+  opacity: 1;
+  color: gray
+}
